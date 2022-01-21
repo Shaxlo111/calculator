@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+<div class="container">
+    <div class="row mt-5 mb-5 col-lg-4">
+        <div class="col-lg mt-5">
+        <div class="panel-buttons pb-3">
+            <div class="col1">
+            <h6 class="sh text-white text-lg-left">Ucell</h6>
+            <h6 class="sh text-white text-sm-center">2:06</h6>
+            <h6 class="sh text-white text-sm-right">26%</h6>
+            </div>
+            <input type="text" id="natija" class="form-control pt-1 offset-1">
+            <div class="btn-group offset-1">
+                <button type="button" class="tugma btn-muted text-lg-center text-dark" onclick="tozalash()">AC</button>
+                <button type="button" class="tugma btn-muted text-dark" onclick="sun()">+/-</button>
+                <button type="button" class="tugma btn-muted text-dark" onclick="foiz()">%</button>
+                <button type="button" class="tugma btn-warning text-white" onclick="calk()">/</button>
+            </div>
+            <div class="btn-group offset-1">
+                <button type="button" class="tugma btn-secondary text-white" onclick="hisob(7)">7</button>
+                <button type="button" class="tugma btn-secondary text-white" onclick="hisob(8)">8</button>
+                <button type="button" class="tugma btn-secondary text-white" onclick="hisob(9)">9</button>
+                <button type="button" class="tugma btn-warning text-white" onclick="calk('*')">*</button>
+            </div>
+            <div class="btn-group offset-1">
+                <button type="button" class="tugma btn-secondary text-white" onclick="hisob(4)">4</button>
+                <button type="button" class="tugma btn-secondary text-white" onclick="hisob(5)">5</button>
+                <button type="button" class="tugma btn-secondary text-white" onclick="hisob(6)">6</button>
+                <button type="button" class="tugma btn-warning text-white" onclick="calk('-')">-</button>
+            </div>
+            <div class="btn-group offset-1">
+                <button type="button" class="tugma btn-secondary text-white" onclick="hisob(1)">1</button>
+                <button type="button" class="tugma btn-secondary text-white" onclick="hisob(2)">2</button>
+                <button type="button" class="tugma btn-secondary text-white" onclick="hisob(3)">3</button>
+                <button type="button" class="tugma btn-warning text-white" onclick="calk('+')">+</button>
+            </div>
+            <div class="btn-group offset-1">
+                <button type="button" class="tugma1 btn-secondary text-left pl-4 text-white" onclick="hisob()">0</button>
+                <button type="button" class="tugma btn-secondary text-white" onclick="nuqta()">,</button>
+                <button type="button" class="tugma btn-warning text-white" onclick="teng('=')">=</button>
+            </div>
+        </div>
+
+        </div>
+        <button type="button" class="knopka  btn-white">
+            <h6 class="icon text-center"></h6>
+        </button>
+    </div>
+</div>
+
+<!--
+<div class="container">
+<div class="row1 mt-5">
+    <div class="col-md-3 ">
+        <label for="ism">Ismingizni kiriting</label>
+        <input type="text" id="ism">
+    </div>
+    <div class="col-md-3 ">
+        <label for="fam">Familyangizni kiriting</label>
+        <input type="text" id="fam">
+    </div>
+    <div class="col-md-3 ">
+        <label for="shar">Sharifingizni  kiriting</label>
+        <input type="text" id="shar" >
+    </div>
+    <div class="col-md-3 mt-3">
+        <button class="btn btn-outline-danger p-2"
+                onclick="qosh()">+</button>
+    </div>
+</div>
+
+<div class="row mt-5 ml-3 mr-3">
+    <table class="table table-dark">
+        <thead>
+        <tr>
+            <td>id</td>
+            <td>Ismi</td>
+            <td>Familyasi</td>
+            <td>Sharifi</td>
+        </tr>
+        </thead>
+        <tbody id="tBody">
+
+        </tbody>
+    </table>
+</div>
+</div>
+
+<button type="button" class="btn mt-5 mb-2 offset-3  btn-success" onclick="changeStyle()" >Style</button>
+<h4 id="Style" class="ml-3 mr-3 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+    aut dicta doloremque eligendi enim    error expedita id
+    in iusto nemo, non placeat, quasi quos rem
+    reprehenderit sapiente ullam voluptate voluptatum.</h4>-->
+
+
+</body>
+<script src="js/bootstrap.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/jQuery.min.js"></script>
+<script src="js/main.js"></script>
+</html>
